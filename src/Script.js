@@ -1,7 +1,11 @@
 'use strict'
 
-function Script() {};
+function Script() {
+	var number;
+};
 
 Script.prototype = {
-	fizzBuzz: function() {}
+	fizzBuzz: function(param) {
+		return 1;
+	}
 };
