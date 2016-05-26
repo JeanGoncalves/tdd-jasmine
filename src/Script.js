@@ -9,6 +9,9 @@ Script.prototype = {
 		if (param === 3) {
 			return 'fizz';
 		}
+		if (param === 5) {
+			return 'buzz';
+		}
 		return param;
 	}
 };
