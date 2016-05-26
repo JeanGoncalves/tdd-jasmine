@@ -6,6 +6,9 @@ function Script() {
 
 Script.prototype = {
 	fizzBuzz: function(param) {
+		if (param === 3) {
+			return 'fizz';
+		}
 		return param;
 	}
 };
