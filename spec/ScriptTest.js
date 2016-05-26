@@ -15,6 +15,10 @@ describe("Script", function() {
 	});
 
 	it("fizzBuzz(2) retorna 2", function() {
-		expect(script.fizzBuzz(2)).tobe(2);
+		expect(script.fizzBuzz(2)).toBe(2);
+	});
+
+	it("fizzBuzz(3) retorna 'fizz'", function() {
+		expect(script.fizzBuzz(3)).toBe('fizz');
 	});
 });

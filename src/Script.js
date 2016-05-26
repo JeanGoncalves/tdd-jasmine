@@ -6,6 +6,6 @@ function Script() {
 
 Script.prototype = {
 	fizzBuzz: function(param) {
-		return 1;
+		return param;
 	}
 };
