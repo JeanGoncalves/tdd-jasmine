@@ -29,4 +29,8 @@ describe("Script", function() {
 	it("fizzBuzz(9) retorna 'fizz'", function() {
 		expect(script.fizzBuzz(9)).toBe('fizz');
 	});
+
+	it("fizzBuzz(10) retorna 'buzz'", function() {
+		expect(script.fizzBuzz(10)).toBe('buzz');
+	});
 });
